@@ -15,7 +15,7 @@ exports.bookTicket = async(req, res)=>{
         await ticket.save()
         return res.send({message:'Ticket Bokked Successfully',details:ticket})
     }catch(e){
-        console.log(e)
+        
         return res.send(e)
     }
 }
