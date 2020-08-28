@@ -15,7 +15,12 @@ const TicketSchema = new mongoose.Schema({
     timing:{
         type:Date,
         required:true
-    }
+    },
+    expireAt: {
+        type: Date,
+        //default: Date.now,
+        index: { expires: '2m' },
+    },
 })
 
 const Ticket = mongoose.model('Ticket', TicketSchema)
