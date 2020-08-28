@@ -9,8 +9,8 @@ exports.getTicketDetails = async(req, res)=>{
             return res.status(404).send({message:'Ticket not found'})
         }
 
-        res.send({message:'User Details', details:ticket})
+        return res.send({message:'User Details', details:ticket})
     }catch(e){
-        res.send(e)
+        return res.send(e)
     }
 }
