@@ -111,6 +111,6 @@ payload:{
 
 1. *At a given time maximun 20 tickets can be booked.*
 
-1. *Tickets gets deleted automatically, 8 hours after the ticket timing.*
+1. *Tickets get deleted automatically, 8 hours after the ticket timing.*
 
 1. *Testing of all the endpoints*  
