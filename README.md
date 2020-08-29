@@ -3,6 +3,12 @@
 ---
 ---
 
+## Live Url
+
+[Book Tickets](https://bookthetickets.herokuapp.com "Book Tickets")
+
+---
+
 ### Steps For Running The Server Locally  
 
 1. For installation of dependencies run
@@ -81,6 +87,10 @@ payload:{
   id:"5f4a172a35fc587be14ef841"
 }
 ```
+
+#### Note  
+
+>Postman test Image are in  **/postmanImg** folder
 
 ---
 
