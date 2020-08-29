@@ -1,5 +1,6 @@
-# Ticket Booking
+# Movie Ticket Booking  
 
+---
 ---
 
 ### Steps For Running The Server Locally  
@@ -53,7 +54,7 @@ method:PATCH
 endpoint: /ticket/time
 payload:{
 	"id":"5f4a172a35fc587be14ef841",
-	"timing":"September 2 2020 17:30 "
+	"timing":"September 2 2020 18:30 "
 }
 ```
 

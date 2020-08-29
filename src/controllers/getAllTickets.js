@@ -5,11 +5,12 @@ exports.getAllTicket = async(req, res)=>{
         const time = req.params.time
 
         const tickets = await Ticket.find({timing:time})
-        if(!tickets){
+        if(tickets.length == 0){
             return res.status(404).send({Message:'No tickets found at this time'})
         }
         return res.send({details:tickets})
     }catch(e){
+        console.log(e)
         return res.send(e)
     }
 }
