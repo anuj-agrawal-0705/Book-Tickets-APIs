@@ -13,7 +13,7 @@ exports.bookTicket = async(req, res)=>{
         const ticket = new Ticket({...req.body, expireAt:expiryTime})
 
         await ticket.save()
-        return res.send({message:'Ticket Bokked Successfully',details:ticket})
+        return res.send({message:'Ticket Booked Successfully',details:ticket})
     }catch(e){
         
         return res.send(e)
