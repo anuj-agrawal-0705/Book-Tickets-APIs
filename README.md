@@ -17,7 +17,9 @@
 npm install
 ```
 
-2. Setup environment variables in .env file in the root
+2. Setup environment variables in dev.env file in the
+
+>/src/config
 
   ```bash
 PORT=5000
@@ -31,7 +33,18 @@ npm run dev
 ```
 ---
 
-## Running Test Server
+## Steps For Running Test Server
+
+1. Setup environment variables in test.env file in the
+
+>/src/config
+
+  ```bash
+PORT=5000
+MONGO_URI='Your Test Mongo Uri'
+  ```
+
+2. Run Test Server
 
 ```bash
 npm run test
