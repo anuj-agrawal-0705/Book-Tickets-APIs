@@ -7,7 +7,7 @@ const options = {
     useFindAndModify:false
 };
 
-mongoose.connect("mongodb+srv://anuj:9621337879@cluster0.heo0c.mongodb.net/test",options,()=>{
+mongoose.connect(process.env.MONGO_URI,options,()=>{
     console.log('Mongodb connected')
 })
 
